@@ -75,7 +75,7 @@ const appData = {
     },
     logger: function () {
         for (let cry in appData) {
-            console.log(cry + appData[cry]);
+            console.log(cry + ':' + ' ' + appData[cry]);
         }
     },
     start: function () {
